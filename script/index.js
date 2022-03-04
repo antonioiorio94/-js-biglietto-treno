@@ -4,7 +4,7 @@ const età = parseInt(prompt("Quanti anni hai?"));
 
 const prezzoAlkm = (0.21);
 
-let prezzoBiglietto = parseFloat(kmDaPercorrere * prezzoAlkm);
+let prezzoBiglietto = parseFloat(kmDaPercorrere * prezzoAlkm).toFixed(2);
 
 
 
